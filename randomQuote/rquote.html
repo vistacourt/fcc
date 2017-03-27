@@ -2,11 +2,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-
-
-
-
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,34 +12,17 @@
 <script src="js/scripts.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" href="css/style.css">
-
-
-<script>
-$(document).ready(function() {
-  $("button").click(function(){
-      $("#cool").fadeIn();
-      $("#rqId").fadeIn("slow");
-      $("#rqId").fadeIn(3000);
-  });
-});
-
-</script>
-
-
-
 </head>
 <body>
 <div class="well well-lg">
-      <button class="button" onclick="randomQuote()">Random Quote</button><button>Click to fade in boxes</button><br><br>
-      <br/><br/><br/><br/>
+      <button class="button" onclick="randomQuote()">Random Quote</button><br><br>
+      <a class="twitter-share-button"
+        href="https://twitter.com/intent/tweet?id='rqId'">
+          tweet
+      </a>
+      <br/><br/>
   <p>
     <quoteArea id="rqId"></quoteArea>
 </div>
-<div id="cool">
-  <font size="400" color="white">
-  cool
-</font>
-</div>
-<div id="div1" style="width:80px;height:80px;display:none;background-color:red;"></div><br>
 </body>
 </html>
