@@ -13,16 +13,13 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-<div class="well well-lg">
-      <button class="button" onclick="randomQuote()">Random Quote</button><br><br>
-      <a class="twitter-share-button"
-        href="https://twitter.com/intent/tweet?id='rqId'">
-          tweet
-      </a>
-      <br/><br/>
-  <p>
-    <quoteArea id="rqId"></quoteArea>
-</div>
-</body>
+  <body>
+    <div class="container">
+      <div class="well well-lg">
+        <button class="button" onclick="randomQuote()">Random Quote</button>
+        <button class="button" onclick="tweetIt()">Tweet it</button><br><br><br>
+        <quoteArea id="rqId"></quoteArea><br>
+      </div>
+    </div>
+  </body>
 </html>
