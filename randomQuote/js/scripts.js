@@ -26,6 +26,18 @@ function randomQuote(){
                     ["Violence is my last option.<br/>"+"<auth> - Chuck Norris</auth>"],
                     ["How would you like one across yo lip?<br/>"+"<auth> - Fred Sanford</auth>"],
                     ["You have the ring. And I see that your Schwartz is as big as mine. Now, let's see how well you handle it.<br/>"+"<auth> - Dark Helmet</auth>"],
+                    ["I like everything about religion except god.<br/>"+"<auth> - Thomas Kelly</auth>"],
+                    ["The Druids... no one knows who they were or what they were doing.<br/>"+"<auth> - Nigel Tufnel</auth>"],
+                    ["I like to picture Jesus in a tuxedo t-shirt, cause it says, like, I want to be formal but I want to party too. Cause I like to party, so I like my Jesus to party.<br/>"+"<auth> - Cal Naughton Jr.</auth>"],
+                    ["Hey, wait a minute, there's no birthday party for me here!<br/>"+"<auth> - Jeff Spicoli</auth>"],
+                    ["Who picks your clothes - Stevie Wonder?<br/>"+"<auth> - Don Rickles</auth>"],
+                    ["Welcome to Costco, I love you.'<br/>"+"<auth> - Guy at Costco</auth>"],
+                    ["Carl's Jr... Fuck you, I'm eating<br/>"+"<auth> - Carl's Jr. Computer</auth>"],
+                    ["If I were running The View, I’d fire Rosie O’Donnell. I mean, I’d look at her right in that fat, ugly face of hers, I’d say Rosie, you’re fired.<br/>"+"<auth> - Donald Trump</auth>"],
+                    ["I don't even listen to rap. My aprtment is too nice for it.<br/>"+"<auth> - Kanye West</auth>"],
+                    ["My greatest pain in life is that I will never be able to see myself perform live.<br/>"+"<auth> - Kanye West</auth>"],
+                    ["I have five of broats.<br/>"+"<auth> - Dr. Steve Brule</auth>"],
+                    ["I basically love anything that comes in a hot dog bun… except hot dogs.<br/>"+"<auth> - Gwyneth Paltrow</auth>"],
                   ];
   var rqVar = items[Math.floor(Math.random()*items.length)];
   el.innerHTML = rqVar;
