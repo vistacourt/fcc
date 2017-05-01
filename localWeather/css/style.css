@@ -1,0 +1,41 @@
+body{
+  background-color: #0B385E;
+  margin: 100px 80px 100px 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 3;
+}
+p{
+  color: black;
+  border: 30px;
+}
+
+.well{
+  background: #fff;
+  width: 100%;
+}
+
+.button{
+  border: 1;
+  border-color: #fff;
+  color: #fff;
+  background-color: #000;
+  border-radius: 8px;
+  outline:none;
+}
+
+.button:hover{
+  border-color: red;
+}
+
+.button:active{
+  border-color: green;
+}
+
+quoteArea{
+font-size: 22px;
+}
+
+auth{
+  font-size: 17px;
+  font-style: italic;
+}
